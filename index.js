@@ -11,7 +11,7 @@ return arr;
 function johnLennonFacts(facts){
   var arr = [];
   var num = 0;
-  while (facts.length > num) {
+  while (num < facts.length) {
     
     arr.push(facts + "!!!");
     num++;
