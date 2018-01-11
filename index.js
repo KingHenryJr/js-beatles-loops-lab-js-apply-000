@@ -8,3 +8,16 @@ for (var i = 0; i < musicians.length; i++) {
 return arr;
 }
 
+function johnLennonFacts(facts){
+  var arr = [];
+  var num = 0;
+  while (facts.length > num) {
+    
+    arr.push(facts + "!!!");
+    num++;
+  }
+  
+  return arr;
+}
+
+
